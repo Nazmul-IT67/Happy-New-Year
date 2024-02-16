@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    background:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.2)), url("Images/Banner.png");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.banner h1{
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.new-year{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.new-year h1{
+    color: red;
+    font-size: 3.3rem;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.new-year span{
+    color: red;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.new-year h2{
+    color: black;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.new-year img{
+    max-width: 100%;
+    margin: auto;
+}
+.welcome-section{
+    background:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.2)), url("Images/Vectorrr.png");
+    margin-top: 50px;
+    height: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px;
+}
+.welcome-section h1{
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.welcome-section p{
+    color: #b9b3b3;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.welcome-section span{
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hotel-section{
+    background: linear-gradient(rgba(228, 220, 220, 0.7), rgba(255, 255, 255, 0.5));
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding: 50px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+.hotel-section span{
+    color: red;
+}
+.hotel-section button{
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.comming-soon{
+    margin-top: 60px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.comming-soon div{
+    width: 340px;
+}
+.comming-soon-left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.comming-soon-right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.comming-soon-left-content h5{
+    color: red;
+}
+.comming-soon-right-content h2{
+    color: red;
+}
+.comming-soon-right-content img{
+    width: 50%;
+}
+.comming-soon-img img{
+    border: 8px solid red;
+    border-radius: 100%;
+    padding: 15px;
+    max-width: 100%;
+}
+.holyday{
+    margin-top: 60px;
+}
+.holyday-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.holyday-content h2{
+   font-size: 2.4rem;
+}
+.holyday-content span{
+   color: red;
+}
+.holyday-img{
+    display: flex;
+    margin-top: 30px;
+    background-image: url('Images/Rectangle 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    justify-content: space-between;
+}
+.holyday-img-1{
+    max-width: 600px;
+}
+.holyday-img-1 img{
+    max-width: 100%;
+}
+.holyday-img-2{
+    max-width: 300px;
+    margin-top: -29px;
+    margin-left: 3px;
+}
+.holyday-img-2 img{
+    max-width: 100%;
+}
+.holyday-img-0{
+    max-width: 200px;
+}
+.holyday-img-0 img{
+    max-width: 20%;
+    margin-left: -50px;
+    position: absolute;
+}
+.portfolios{
+    margin-top: 60px;
+}
+.portfolio-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.portfolio-content h5{
+    color: red;
+}
+.Portfolio-01{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+.Portfolio-01 div{
+    max-width: 350px;
+}
+.Portfolio-01 img{
+    width: 100%;
+}
+.Portfolio-02{
+    display: flex;
+    gap: 15px;
+}
+.Portfolio-02 div{
+    max-width: 350px;
+}
+.Portfolio-02 img{
+    width: 100%;
+}
+.items:hover img{
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+.newsletter{
+    margin-top: 60px;
+    background-color: #FFF2F2;
+}
+.newsletter-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+.newsletter-content img{
+    width: 80px;
+}
+.subscribe input{
+    border: none;
+    padding: 15px 28px;
+    border-radius: 20px;
+    width: 250px;
+}
+.subscribe button{
+    border: none;
+    padding: 15px 28px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    margin-left:-60px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+footer{
+    background-color: black;
+}
+.footer-content{
+    padding: 80px;
+}
+.footer-text{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.footer-address{
+    display: flex;
+    gap: 10px;
+}
+.social{
+    padding: 50px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.social img{
+    width: 30px;
+}
+.unsubscribe{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
